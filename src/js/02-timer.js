@@ -17,7 +17,6 @@ const options = {
   defaultDate: new Date(),
   minuteIncrement: 1,
   onClose(selectedDates) {
-      console.log(selectedDates[0]);
       const selectedDate = selectedDates[0]
       const currentDate = Date.now();
 
@@ -28,8 +27,6 @@ const options = {
 
       startBtn.disabled = false;
       let timerId = null;
-      console.log(selectedDate);
-      console.log(currentDate);
       startBtn.addEventListener("click", () => {
           startBtn.disabled = true;
           inputTime.setAttribute("disabled", "");
