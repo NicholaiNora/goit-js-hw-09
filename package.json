@@ -1,11 +1,11 @@
 {
   "name": "parcel-project-template",
   "version": "2.0.0",
-  "description": "Цей проект створено за допомогою Parcel. Для ознайомлення та налаштування  додаткових можливостей, [зверніться до документації](https://parceljs.org/).",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "description": "This project was created with the help of Parcel. To understand and adjust additional capabilities, [return to documentation](https://parceljs.org/).",
+  "homepage": "https://nicholainora.github.io/goit-js-hw-09/",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
   },
   "repository": {
     "type": "git",
